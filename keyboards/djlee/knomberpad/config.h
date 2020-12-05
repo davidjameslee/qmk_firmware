@@ -34,6 +34,10 @@
 #define ENCODERS_PAD_B { D4 }
 #define ENCODER_DIRECTION_FLIP
 
+/* pro micro led numlock */
+#define LED_NUM_LOCK_PIN B0
+#define LED_PIN_ON_STATE 0
+
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
 
