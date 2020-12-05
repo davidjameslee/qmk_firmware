@@ -16,8 +16,8 @@
 #define MATRIX_COLS 4
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { F4, B6, E6, B4, B5 }
-#define MATRIX_COL_PINS { B1, F7, F6, F5 }
+#define MATRIX_ROW_PINS { F6, B3, B2, B6, D1 }
+#define MATRIX_COL_PINS { F4, F5, B1, F7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
@@ -28,6 +28,11 @@
 #ifdef BACKLIGHT_PIN
 #define BACKLIGHT_LEVELS 0
 #endif
+
+/* rotary encoder pins */
+#define ENCODERS_PAD_A { D0 }
+#define ENCODERS_PAD_B { D4 }
+#define ENCODER_DIRECTION_FLIP
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
